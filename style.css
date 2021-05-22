@@ -1,3 +1,12 @@
-h1{
+#cabecalhoPrincipal h1, #cabecalhoPrincipal nav{
     text-align: center;
+}
+
+#cabecalhoPrincipal{
+    background-color: rgb(80,197,155);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, #cabecalhoPrincipal h1{
+    margin: 0;
 }
