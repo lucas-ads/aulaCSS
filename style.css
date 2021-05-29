@@ -1,12 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #cabecalhoPrincipal h1, #cabecalhoPrincipal nav{
     text-align: center;
 }
 
 #cabecalhoPrincipal{
-    background-color: rgb(80,197,155);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(80,197,155);    
 }
 
 body, #cabecalhoPrincipal h1{
     margin: 0;
+}
+
+#cabecalhoPrincipal nav a{
+    width: 50px;
+}
+
+section#main{
+    background-color: rgb(230, 230, 230);
+    padding: 2% 5%;
+
+    overflow: hidden;
+}
+
+section#main article{
+    border: solid 1px red;
+    display: inline-block;
+    width: 33.33%;
+
+    float: left;
+    box-sizing: border-box;
 }
